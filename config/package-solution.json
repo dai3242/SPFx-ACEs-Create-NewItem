@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "aces-craete-new-item-client-side-solution",
+    "id": "0e839244-c9cb-4e9d-a507-4ad80d56457b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "aces-craete-new-item description"
+      },
+      "longDescription": {
+        "default": "aces-craete-new-item description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "aces-craete-new-item Feature",
+        "description": "The feature that activates elements of the aces-craete-new-item solution.",
+        "id": "8f383f4b-d04e-4460-8e4a-a41b3cae51f0",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/aces-craete-new-item.sppkg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "aces-create-new-item-adaptive-card-extension": {
+      "components": [
+        {
+          "entrypoint": "./lib/adaptiveCardExtensions/acesCreateNewItem/AcesCreateNewItemAdaptiveCardExtension.js",
+          "manifest": "./src/adaptiveCardExtensions/acesCreateNewItem/AcesCreateNewItemAdaptiveCardExtension.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AcesCreateNewItemAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/acesCreateNewItem/loc/{locale}.js"
+  }
+}
